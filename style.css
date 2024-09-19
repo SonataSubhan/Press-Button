@@ -1,0 +1,27 @@
+.button {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 20px 20px black;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: 10px 10px black;
+}
+
+.button:active {
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    box-shadow: none;
+
+}
